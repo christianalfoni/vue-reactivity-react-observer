@@ -1,14 +1,14 @@
 # vue-reactivity-react-observer
 
-React observer for Vue Reactivity
+Automatic React observer for Vue Reactivity
 
 ```sh
 npm install vue-reactivity-react-observer
 ```
 
-Automatic observation from [observing-components](https://github.com/christianalfoni/observing-components).
+Read more about automatic observation in [observing-components](https://github.com/christianalfoni/observing-components).
 
-**Babel plugine example**
+**Babel plugin example**
 
 ```ts
 import observerPlugin from "vue-reactivity-react-observer/babel-plugin";
@@ -25,7 +25,7 @@ export default defineConfig({
 });
 ```
 
-**SWC plugine example**
+**SWC plugin example**
 
 ```ts
 import observerPlugin from "vue-reactivity-react-observer/swc-plugin";

@@ -1,7 +1,7 @@
 {
   "name": "vue-reactivity-react-observer",
-  "version": "0.1.0",
-  "description": "React observer for Vue Reactivity",
+  "version": "0.1.1",
+  "description": "Automatic React observer for Vue Reactivity",
   "files": [
     "dist"
   ],
@@ -40,7 +40,7 @@
     "observer"
   ],
   "author": "Christian Alfoni",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "@vue/reactivity": "*",
     "react": "*"
